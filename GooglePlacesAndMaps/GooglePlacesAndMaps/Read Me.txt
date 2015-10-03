@@ -1,4 +1,0 @@
-Please visit www.androidhive.info for more tutorials
-----------------------------------------------------
-1. Open GooglePlaces.java and replace the Google API key with your's
-private static final String API_KEY = "AIzaSyCRLa4LQZWNQBcjCYcIVYA45i9i8zfClqc"; // place your API key here
