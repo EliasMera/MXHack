@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">munch</string>
+    <string-array name="ContactList">
+        <item>Elias</item>
+        <item>Andrea</item>
+        <item>Juanjo</item>
+        <item>Limon</item>
+        <item>Meli</item>
+        <item>Katy</item>
+        <item>Madona</item>
+        <item>Uranus</item>
+    </string-array>
 </resources>
