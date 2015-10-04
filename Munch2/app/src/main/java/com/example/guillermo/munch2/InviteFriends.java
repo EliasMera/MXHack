@@ -5,26 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class payment_method extends AppCompatActivity {
+public class InviteFriends extends AppCompatActivity {
 
     private android.support.v7.widget.Toolbar toolbar;
+    public void enviar(View v){
+        Intent it = new Intent(this,payment_method.class);
+        startActivity(it);
 
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment_method);
+        setContentView(R.layout.activity_invite_friends);
+
 
         toolbar= (android.support.v7.widget.Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
-
-    }
-    public void friends(View v){
-        Intent i = new Intent(this,FriendList.class);
-        startActivity(i);
-
-    }
-    public void regresar(View v){
-        Intent i = new Intent(this,MainActivity.class);
-        startActivity(i);
     }
 }
