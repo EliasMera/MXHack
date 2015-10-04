@@ -41,6 +41,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     OnMarkerClickListener listener = new OnMarkerClickListener() {
         @Override
         public boolean onMarkerClick(Marker marker) {
+            System.out.println("Hi");
             return false;
         }
     };
