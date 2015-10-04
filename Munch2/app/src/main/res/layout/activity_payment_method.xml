@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context="com.example.guillermo.munch2.payment_method">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp" />
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:id="@+id/friends"
+            android:background="@drawable/friends_button"
+            android:layout_alignBottom="@+id/app_bar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="friends"
+            />
+    <Button
+        android:id="@+id/gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/gps_button"
+        android:text=""
+        android:onClick="regresar"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fotoprofile2"
+            android:src="@drawable/foto"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=""
+        android:id="@+id/payment_disabled"
+        android:background="@drawable/payment_disabled_button"
+        android:layout_alignBottom="@+id/app_bar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola este es un texto"
+        android:id="@+id/textView"
+        android:layout_toLeftOf="@+id/fotoprofile2"
+        android:layout_toStartOf="@+id/fotoprofile2"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Selecciona tu método de pago para esta aplicación: "
+        android:id="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp" />
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_below="@+id/textView2"> <RadioButton
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:text="Paga con una TARJETA"
+        android:id="@+id/tarjetap"
+        android:textColor="#FFFFFF"
+        android:background="#706f73"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/paypal"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="60dp" />
+
+        <RadioButton
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:text="Paga con cuenta PAYPAL"
+            android:id="@+id/paypal"
+            android:textColor="#FFFFFF"
+            android:background="#0279c1"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/tarjetap"
+            android:layout_alignStart="@+id/tarjetap"
+            android:layout_marginTop="60dp"
+            android:layout_alignRight="@+id/tarjetap"
+            android:layout_alignEnd="@+id/tarjetap"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false" /></RadioGroup>
+
+</RelativeLayout>
