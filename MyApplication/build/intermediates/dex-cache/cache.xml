@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\google-api-client-1.10.3-beta.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d29b1290ecd70554abd578cc69faafaa60388514">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\google-api-client-1.10.3-beta-a02513aeb0cbfdf6b994e4055126aa91bdbe289e.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="27c24d26e4c5d57976e6926367985548678e913c">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\android-support-v4-9f2435d4b565b76626831cfef32105b12be037fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\guava-11.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57b40a943725d43610c898ac0169adf1b2d55742">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\guava-11.0.1-2cbde65be35d85fd313834e42bbb2d5daae80dbd.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\google-http-client-1.10.3-beta.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1eb027463d245e499ee7f40123acf5bb394553dc">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\google-http-client-1.10.3-beta-7eaa7bdcd9e8b3ce2e5ea0a419527bc86c967fb0.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9-71b1295db44306d9baa7fb6a6758375f8925c039.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\gson-2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\gson-2.1-fc3f99fb9f8360ea6ca1102e55beef7e693eaad8.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\protobuf-java-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a95d3e6df137d3369cc479ce7ad77703e430b2b">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\protobuf-java-2.2.0-fc8d933086d623e0bc3038be31405d1308064c3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\google-oauth-client-1.10.1-beta.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e5fd289c7f262c4d79899403aecf3b93d281ea4">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.10.1-beta-20c5371361182224e2eb18eceec2e01efd6e59f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\google-api-client-android2-1.10.3-beta.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91cbcf0bcf956de40d1202f981312d0626a3f586">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\google-api-client-android2-1.10.3-beta-63a810469ae87487f84f102bd5d700a3dab2fdbd.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\google-http-client-android2-1.10.3-beta.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9848edeb7959c816798e428b3e1d1be1070e990f">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\google-http-client-android2-1.10.3-beta-82203c4f3c812a41cf938d935de87681ea5e32b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\EliasM\Desktop\MyApplication\app\libs\jackson-core-asl-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d8b2a3e5bc77ee1be67d060b44ac77d48a27d6e">
+        <dex dex="C:\Users\EliasM\Desktop\MyApplication\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.9.4-063e7bb3af0b56ce845fada72e293073d80abf77.jar" />
+    </item>
+
+</items>
