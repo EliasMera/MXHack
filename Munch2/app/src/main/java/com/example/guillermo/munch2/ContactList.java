@@ -1,6 +1,7 @@
 package com.example.guillermo.munch2;
 
 import android.app.ListFragment;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -37,4 +38,5 @@ public class ContactList extends ListFragment implements AdapterView.OnItemClick
         Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
         view.setBackgroundColor(Color.LTGRAY);
     }
+
 }

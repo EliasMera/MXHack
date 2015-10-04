@@ -62,10 +62,18 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="140dp" />
 
-    <RadioButton
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_below="@+id/textView2"> <RadioButton
         android:layout_width="350dp"
         android:layout_height="75dp"
-        android:text="Paga con una tarjeta TARJETA"
+        android:text="Paga con una TARJETA"
         android:id="@+id/tarjetap"
         android:textColor="#FFFFFF"
         android:background="#706f73"
@@ -76,32 +84,24 @@
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="60dp" />
 
-    <RadioButton
-        android:layout_width="350dp"
-        android:layout_height="75dp"
-        android:text="Paga con cuenta PAYPAL"
-        android:id="@+id/paypal"
-        android:textColor="#FFFFFF"
-        android:background="#0279c1"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:layout_below="@+id/textView2"
-        android:layout_alignLeft="@+id/tarjetap"
-        android:layout_alignStart="@+id/tarjetap"
-        android:layout_marginTop="60dp"
-        android:layout_alignRight="@+id/tarjetap"
-        android:layout_alignEnd="@+id/tarjetap"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentTop="false"
-        android:layout_alignParentBottom="false"
-        android:layout_alignParentRight="false" />
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
-        android:layout_below="@+id/textView2"></RadioGroup>
+        <RadioButton
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:text="Paga con cuenta PAYPAL"
+            android:id="@+id/paypal"
+            android:textColor="#FFFFFF"
+            android:background="#0279c1"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/tarjetap"
+            android:layout_alignStart="@+id/tarjetap"
+            android:layout_marginTop="60dp"
+            android:layout_alignRight="@+id/tarjetap"
+            android:layout_alignEnd="@+id/tarjetap"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false" /></RadioGroup>
 
 </RelativeLayout>
