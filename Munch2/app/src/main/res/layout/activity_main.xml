@@ -41,7 +41,9 @@
         android:background="@drawable/friends_button"
         android:layout_alignBottom="@+id/app_bar"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="friends"
+        />
 
     <Button
         android:layout_width="wrap_content"
@@ -51,7 +53,9 @@
         android:background="@drawable/payment_button"
         android:layout_alignBottom="@+id/app_bar"
         android:layout_alignRight="@+id/app_bar"
-        android:layout_alignEnd="@+id/app_bar" />
+        android:layout_alignEnd="@+id/app_bar"
+        android:onClick="pagos"
+        />
 
     <fragment
         xmlns:android="http://schemas.android.com/apk/res/android"

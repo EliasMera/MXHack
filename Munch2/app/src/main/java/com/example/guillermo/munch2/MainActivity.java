@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toolbar;
 
@@ -34,6 +36,15 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         Button bRes = (Button) this.findViewById(R.id.restaurants);
         Bgps.bringToFront();
         bRes.bringToFront();
+
+    }
+    public void pagos(View v){
+        Intent i = new Intent(this,payment_method.class);
+        startActivity(i);
+    }
+    public void friends(View v){
+        Intent i = new Intent(this,FriendList.class);
+        startActivity(i);
 
     }
     private Dialog dialogo(String msj){

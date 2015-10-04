@@ -10,4 +10,5 @@
         <item>Madona</item>
         <item>Uranus</item>
     </string-array>
+    <string name="title_activity_friend_list">FriendList</string>
 </resources>
