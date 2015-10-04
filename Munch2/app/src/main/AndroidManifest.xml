@@ -30,8 +30,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".payment_method" />
 
+=======
+        <activity android:name=".payment_method"></activity>
+>>>>>>> 2b1d25a3d3bce71d0f5ad144291bdf80804f8261
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBny3nbW2M_gbTGHTaO5TanMFZdx1LHdpA" />
